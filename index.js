@@ -13,8 +13,7 @@ function convertToCelsius(fahrenheit) {
 }
 
 // Return description based on Celsius temperature
-function describeTemperature(fahrenheit) {
-    const celsius = convertToCelsius(fahrenheit);
+function describeTemperature(celsius) {
 
     if (celsius < 0) {
         return "Very cold";
